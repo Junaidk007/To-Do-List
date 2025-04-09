@@ -1,0 +1,59 @@
+@media (max-width: 768px) {
+    .box {
+      width: 90%;
+      padding: 15px;
+    }
+  
+    input {
+      width: 100%;
+      font-size: 0.9rem;
+    }
+  
+    .add {
+      width: 100%;
+      margin-left: 0;
+      margin-top: 10px;
+      font-size: 0.8rem;
+    }
+  
+    .innerbox {
+      min-height: 300px;
+      padding: 8px;
+    }
+  
+    .delete {
+      width: auto;
+      padding: 6px 10px;
+      font-size: 0.7rem;
+    }
+  
+    .span1 {
+      width: 100%;
+      padding: 8px;
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    li {
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 1.3rem;
+      padding: 8px;
+    }
+  
+    input,
+    .add {
+      font-size: 0.75rem;
+    }
+  
+    .delete {
+      height: auto;
+      font-size: 0.65rem;
+    }
+  }
+  
